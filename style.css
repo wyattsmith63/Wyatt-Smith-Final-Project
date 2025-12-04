@@ -1,0 +1,258 @@
+body {
+    background-color: #E5F3FD;
+    background-color: #E5F3FD;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    font-family: 'Poppins', sans-serif, Arial, Verdana;
+    height: 100%;
+    min-width: 600px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    font-family: 'Poppins', sans-serif, Arial, Verdana;
+    height: 100%;
+    min-width: 600px; 
+}
+
+.dark {
+    background-color: black !important;
+    color: #777 !important;
+}
+
+.dark2{
+    background-color: black!important;
+    color:  #777 !important;
+    border: 1px solid #777 !important;
+}
+
+.dark3{
+    border: 7px solid #777 !important;
+}
+
+.dark4{
+    background-color: #777 !important;
+}
+
+.christmas {
+    background-color: red !important;
+    color: #05472A !important;
+}
+
+.christmas2{
+    background-color: #05472A !important;
+    color: red !important;
+    border: 1px solid red !important;
+}
+
+.christmas3 {
+    border: 7px solid #05472A !important;
+}
+
+.christmas4 {
+    background-color: red !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #D1E5F4;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#mode {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 80px;
+    box-sizing: border-box;
+}
+
+#mode2{
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    width: 80px;
+    box-sizing: border-box;
+}
+
+.modesize{ /* this is a weird fix to sizing issue when changing button, couldnt figure out something else */
+    width: 78px !important;
+}
+
+#h1 {
+    margin-top: 0;
+}
+
+#topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D1E5F4;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.vl {
+    width: 1px;
+    background-color: black;
+    align-self: stretch;
+    margin: 0 10px;
+}
+
+#picvid {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#chill{
+    width: 300px;
+}
+
+#bigrig{
+    width: 350px;
+}
+
+#identity {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-basis: auto;
+    margin-right: 10px;
+}
+
+#sections {
+    display: flex;
+    text-align: right;
+    flex-basis: auto;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+#me{
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+#aboutme {
+    margin-left: 30px;
+    border: 7px solid #D1E5F4;;
+    padding: 10px;
+}
+
+#pic {
+    border: 1px solid black;
+    width: 350px;
+    margin-left: 25px;
+}
+
+.links {
+    margin: 15px;
+}
+
+.button {
+    background-color: white;
+    padding: 5px 8px;
+    text-align: center;
+    border: none;
+    color: black;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.pic {
+    margin: 30px;
+    width: 250px;
+}
+
+.pictext {
+    margin: 30px;
+    max-width: 300px;
+}
+
+#pics {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#pdf-container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #pics {
+        flex-wrap: wrap;
+    }
+}
+
+#emailarea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.emailbox {
+    width: 60%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #777;
+}
+    
+.contact-form {
+    max-width: 50vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-form h1 {
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit; 
+    font-size: 16px;    
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+    cursor: pointer;
+    margin-top: 10px;      
+}

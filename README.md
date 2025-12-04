@@ -1,5 +1,3 @@
-# Wyatt-Smith-Final-Project
-
 Project Summary: Portfolio for myself including 4 tabs, one about me, one projects, one skills/resume, one for contact
 
 No team members
